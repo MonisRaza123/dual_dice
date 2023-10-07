@@ -27,6 +27,10 @@ The state machine with the help of some pre-defined blocks constitutes the entir
 
 1. **Seven Segment Decoder and Multiplexer-** The 2-digit present sum and last obtained sum must be displayed on the 4-digit multiplexed Seven Segment Display. It has two individual parts. One is a 4-bit to 7-segment decoder which decodes the 4-bit binary number to its seven-segment equivalent. The other and the more important part is an FSM which turns on one digit at a time and accordingly sends out the correct decoded code for it. The rate at which all the digits are sequentially turned on at a rate faster than the human persistence of vision. In this way, all of the four digits appear to be ON at the same time whereas only one of it at any particular time instant.
 
+## Floorplan and Fitter report
+<img src="images/ucf.jpeg">
+<img src="images/report.jpeg">
+
 ## Pictures of wired Akshayapatra
 <img src="images/scene1.jpg">
 <img src="images/scene2.jpg">
