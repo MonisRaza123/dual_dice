@@ -11,3 +11,6 @@ Macrocells are key components of PLD devices. It contains logic implementing dis
 The program into the CPLD is fed by the JTAG protocol pins.
 The code is written in VHDL in Xilinx ISE. The main part of this project is a finite state machine which is coded inside the CPLD. The FSM takes in the inputs from the buttons and according to its present state decides the output and the next jump to another state. This all is implemented with flip-flops and some other combinational logic.
 The state machine with the help of some pre-defined blocks constitute the entire project. The blocks generate some data which is manipulate by the main FSM design required to proceed further. The FSM control the blocks by some control signals. The entire set consisting of the control signals with the blocks is called datapath and the blocks are called elements of datapath.
+|<img src="images/FSM_dualdice.png" height="600">|
+|:--:|
+|*FSM for dual dice game*|
