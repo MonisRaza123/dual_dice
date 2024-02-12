@@ -24,7 +24,7 @@ module counter(input clk,  input enable,
 	reg [3:0] q=4'b0010;
 	always@(posedge clk)begin
 		if(q>=4'b1100)q<=4'b0010;
-		else if(enable)q<=q+4'b001;
+		else if(enable)q<=q+4'b0001;
 	end
 	assign count=q;
 endmodule
